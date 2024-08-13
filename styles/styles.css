@@ -211,7 +211,7 @@ body{
         border: 0;
     }
     .main{
-        margin-left: 65px;
+        margin-left: 25%;
     }
     .main .container-encriptador-texto .input-text{
         padding-top: 15px;
@@ -222,12 +222,26 @@ body{
         font-size: 10px;
         font-weight: 300;
     }
-    .main .container-texto-encriptado{
+    .main .container-texto-encriptado .mensaje-vacio, .texto-encriptado .button-copy-text {
         display: flex;
+        align-items: center;
         justify-content: center;
-        position: relative;
     }
-       
+    .main .container-texto-encriptado {
+        margin-right: 12em;
+        display: flex;
+        justify-content: flex-start;
+        width: 60%;
+        height: 50%;
+        padding-top: 10px;
+
+    }
+    .main .container-texto-encriptado #mensaje-vacio .muneco{
+        width: 50%;
+        height: 50%;
+        margin-left: 20%;
+        margin-top: 10px;
+    }   
     
     .footer{
         max-width: 100%;
