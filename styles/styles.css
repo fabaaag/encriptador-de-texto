@@ -214,8 +214,11 @@ body{
         margin-left: 25%;
     }
     .main .container-encriptador-texto .input-text{
-        padding-top: 15px;
-        
+        padding-top: 25px;
+        width: 400px;
+        border: 1px solid;
+        border-radius: 10px;     
+        margin-bottom: 10px;
     }
     .main .container-encriptador-texto .warning{
         margin-bottom: 5px;
