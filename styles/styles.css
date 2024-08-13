@@ -150,13 +150,13 @@ body{
   
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1250px) {
     body{
         box-sizing: border-box;
         border: 0;
         margin: 0;
         padding: 0;
-        max-width: 768px;
+        max-width: 1250px;
         height: 100vh;
     }
     .header a .logo{
@@ -197,41 +197,40 @@ body{
         padding: 20px;
     }
 }
-@media(max-width:30em){
-    body{
-        box-sizing: border-box;
-        border: 0;
+@media(min-width: 300px) and (max-width:650px){
+    *{
         margin: 0;
         padding: 0;
-        max-width: 450px;
-        height: 100vh;
-       position: fixed;
+        border: 0;
+        box-sizing: border-box;
+        max-width: 500px;
+        display: grid;
+    }
+    .header a .logo{
+        padding: 0;
+        border: 0;
     }
     .main{
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-
+        margin-left: 65px;
     }
     .main .container-encriptador-texto .input-text{
-        margin-top: 25px;
-        width: 250px;
-        height: 25%;
-        padding-bottom: 500px;
+        padding-top: 15px;
         
     }
-    .main .container-encriptador-texto .input-text::placeholder{
-        font-size: 20px;
-        font-weight: 400;
-        color: #0A3871;
-        opacity: 1; 
-        text-align: center;
+    .main .container-encriptador-texto .warning{
+        margin-bottom: 5px;
+        font-size: 10px;
+        font-weight: 300;
     }
-    .main .container-encriptador-texto .button-container{
-        display: table-column;
-        
-    }
-    .main .container-encriptador-texto .button-container .button-encriptar{
+    .main .container-texto-encriptado{
         display: flex;
+        justify-content: center;
+        position: relative;
+    }
+       
+    
+    .footer{
+        max-width: 100%;
+        
     }
 }
